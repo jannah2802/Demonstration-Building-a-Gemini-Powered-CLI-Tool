@@ -13,4 +13,20 @@
 		  c. Defined two helper functions, 
 			  i. Banner - prints a nice header for our CLI application
 			  ii. Loading - prints dots to give the user visual fee that the program is working, improve user experience.
+			d. Core function in the main loop
+							i. Add banner
+			ii. While loop - STANDARD WAY TO KEEP APPLICATION RUNNING UNTIL USER DECIDES TO QUIT.
+				Read user input	
+				Check if the input :-	
+				        1. if user enter 'exit/exit()/quit' it end application/break the loop cleanly, 
+				        2. if not user need to enter valid prompt,
+				                a. Call loading function to sgnal processing
+				                b. Output equals to gemini_response()
+				                        
+<img width="809" height="274" alt="image" src="https://github.com/user-attachments/assets/902b3739-6e89-4b34-a2d6-3619787bcd86" />
+
+			e. End the call with 'try-except' bock = pro way to handle potential errors, like network issue or an invalid API key, without crashing the entire app.
+		
+			f. Print output
+
 
