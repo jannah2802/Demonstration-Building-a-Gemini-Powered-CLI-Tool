@@ -1,5 +1,15 @@
 # Demonstration-Building-a-Gemini-Powered-CLI-Tool
 
+	To run this file must install:-
+	- must have Gemini API Key and replace in .env file
+	- dotenv
+	- google-generativeai
+	- run python main.py
+	- Try any prompt
+	- To exit app
+
+	This code consist of the following file:
+
 	1. .env file
 		a. To ensure that the API key is never exposed in our main code
 	2. Gemini_provider.py
